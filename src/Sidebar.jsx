@@ -12,7 +12,7 @@ const Sidebar = () => {
       <p>年龄：23</p>
       <p>电话：18180720812</p>
       <p>邮箱：<a href="mailto:haowei.yi@outlook.com">haowei.yi@outlook.com</a></p>
-      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">个人简历 PDF</a>
+      <a href="/project/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">个人简历 PDF</a>
       <button className="patent-link" onClick={() => navigate('/patents')}>专利列表</button>
     </div>
   );
