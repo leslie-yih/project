@@ -1,0 +1,54 @@
+.project-detail {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(34,40,49,0.08);
+  padding: 32px;
+  height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+.project-detail img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+.back-btn {
+  background: #222831;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: background 0.2s;
+  margin-top: 20px;
+}
+.back-btn:hover {
+  background: #393e46;
+}
+.project-title-detail {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 16px 0 24px 0;
+  color: #222831;
+}
+.markdown-content {
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 24px 0;
+}
+th, td {
+  border: 1px solid #bbb;
+  padding: 8px 12px;
+  text-align: center;
+}
+th {
+  background: #f7f7f7;
+} 
